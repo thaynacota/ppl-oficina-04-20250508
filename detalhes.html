@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalhes da Cidade</title>
+    <link rel="stylesheet" href="detalhes.css" />
 </head>
 <body>
     <div id="tela"></div>
@@ -24,9 +25,10 @@
             if (cidade) {
                 tela.innerHTML = `<p>
                                     id: ${cidade.id} <br/>
+                                    <img src = "${cidade.imagem}" alt="cidade"/> <br/>
                                     cidade: <strong>${cidade.cidade}</strong> <br/>
                                     estado: ${cidade.estado} <br/>
-                                    População: ${cidade.população}
+                                    População: ${cidade.populacao}
                                   </p>`
             }
             else {

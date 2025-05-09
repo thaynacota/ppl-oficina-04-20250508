@@ -4,13 +4,38 @@
 }
 
 body {
-    background-color: rgb(238, 239, 239);
+    background-color: rgb(253, 242, 242);
 }
 
 a:visited {
-    background-color: yellow;
+    background-color: rgb(217, 135, 255);
 }
 
 a {
     background-color: rgb(204, 218, 254);
 }
+
+.card {
+    border: 1px solid gray;
+    padding: 1rem;
+    width: 25rem;
+    height: 20rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    box-shadow: .5rem .5rem .3rem .1rem gray;
+    text-align: center;
+    overflow: hidden;
+}
+
+img{
+    width: 390px;
+    height: 295px;
+    border-radius: 10px;   
+}
+
+
+li{
+    list-style-type: none;
+}
+
+

@@ -23,7 +23,8 @@
       console.log("index.html:\n" + cidades)
       for (let i = 0; i < cidades.length; i++) {
         let cidade = cidades[i];
-        strTextoHTML += `<li>
+        strTextoHTML += `<li class="card">
+                            <img src = "${cidade.imagem}" alt="cidade"/> <br/>
                             <a href="detalhes.html?id=${cidade.id}">
                                 ${cidade.cidade} - ${cidade.estado} 
                             </a>

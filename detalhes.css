@@ -1,0 +1,10 @@
+* {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 580px;
+    height: 490px;
+    border-radius: 15px;
+}
